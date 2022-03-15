@@ -224,7 +224,7 @@
     top: 4rem;
     text-align: center;
     gap: 0.5rem;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
 }
     @media screen and (min-width: 318px) and (max-width: 1369px) { 
         .servicios__card-lines{
@@ -278,12 +278,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: var(--subtitulo);
-    color: rgb(0, 0, 0);
-    font-family: PoppinsBlack;
     flex-direction: column;
     width: 100%;
     height:15%;
+    
+}
+
+.servicios__card-2-header a{
+    text-decoration: none;
+    font-size: var(--subtitulo);
+    font-family: PoppinsBlack;
+    color: rgb(0, 0, 0);
+
 }
 
 .servicios__card-2-image{

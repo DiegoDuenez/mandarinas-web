@@ -17,6 +17,7 @@
         <h2 class="banner__title bottom10 " data-aos="fade-down">871-718-1111</h2>
         <div class="banner__links bottom8">
             <a href="#taxis" class="banner__text" data-aos="fade-up" data-aos-delay="200">TAXIS</a>
+            <a href="#empresarial" class="banner__text" data-aos="fade-up" data-aos-delay="200">EMPRESARIAL</a>
             <a href="#mandarinasplus" class="banner__text" data-aos="fade-up" data-aos-delay="500">MANDARINAS PLUS</a>
         </div>
     <?php elseif($archivo == 'gruas.php'): ?>
