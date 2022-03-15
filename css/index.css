@@ -1,0 +1,26 @@
+/*
+*
+* @Index
+*
+*/
+
+@import url('components/navbar.css');
+@import url('components/banner.css');
+@import url('components/sidebar.css');
+@import url('components/footer.css');
+
+@import url('helpers/flex.css');
+@import url('helpers/margin.css');
+@import url('helpers/position.css');
+@import url('helpers/colors.css');
+
+
+@import url('layouts/nosotros.css');
+@import url('layouts/servicios.css');
+@import url('layouts/app.css');
+@import url('layouts/contacto.css');
+
+
+
+
+

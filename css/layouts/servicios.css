@@ -1,0 +1,320 @@
+/*
+*
+* @Layouts (Servicios)
+*
+*/
+
+.servicios{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    padding: 3rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios{
+            flex-direction: column;
+        }
+    }
+
+.servicios--row{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: row;
+    margin-top: 1rem;
+    gap: 5rem;
+}
+
+.servicios--reverse{
+    flex-direction: row;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios--reverse{
+            flex-direction: column-reverse;
+        }
+    }
+
+.servicios__title{
+    font-family: PoppinsBlack;
+    font-size: var(--titulo);
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios__title{
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 640px) { 
+        .servicios__title{
+            font-size: 3rem;
+        }
+    }
+
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.servicios__content{
+     display: flex;
+    flex-direction: column ;
+    width: 60%;
+    object-fit: cover;
+    gap: 2rem;
+
+}
+    @media screen and (min-width: 1074px) and (max-width: 1220px) { 
+        .servicios__content{
+            width: 50%;
+        }
+    }
+    @media screen and (min-width: 686px) and (max-width: 1073px) { 
+        .servicios__content{
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 685px) { 
+        .servicios__content{
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 520px) { 
+        .servicios__content{
+            gap: 0.5rem;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios__content:se{
+           display: none;
+        }
+    }
+
+.w100{
+    width: 100%;
+}
+
+.mt3{
+    margin-top: 3rem !important;
+}
+
+.mt5{
+    margin-top: 5rem !important;
+}
+
+.mt15{
+    margin-top: 15rem !important;
+}
+
+.servicios__content--w40{
+    width: 40%;
+
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios__content--w40{
+            width: 100%;
+        }
+    }
+
+.servicios__content--w40 img{
+    width: 100%
+}
+
+.servicios__text{
+    line-height:3rem;
+    font-family: PoppinsRegular;
+    font-size: var(--texto);
+}
+
+.servicios__text--center{
+    text-align: center;
+}
+
+.servicios__subtitle{
+    font-family: PoppinsThinItalic;
+    font-size: var(--subtitulo);
+    text-align: center;
+}
+
+.servicios__card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    flex-wrap: nowrap;
+}
+    @media screen and (min-width: 736px) and (max-width: 1370px) { 
+        .servicios__card-container{
+           flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 735px) { 
+        .servicios__card-container{
+            flex-direction: column;
+            gap: 1rem;
+        }
+    }
+
+.servicios__card{
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.servicios__card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--naranja);
+    border-radius: 5rem;
+    font-size: var(--subtitulo);
+    color: white;
+    object-fit: cover;
+    width: 0; 
+    height: 0; 
+    border: 70px solid var(--naranja); 
+    border-radius: 180px;
+}
+
+
+.servicios__card-image{
+    width: 5rem;
+}
+
+.servicios__card-body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicios__card-body h3{
+    font-size: 1.5rem;
+    font-family: PoppinsRegular;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.servicios__card-body p{
+    font-size: 1rem;
+    font-family: PoppinsRegular;
+    text-align: center;
+}
+
+.servicios__card-lines{
+    display: flex;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 70%;
+    height: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 4rem;
+    text-align: center;
+    gap: 0.5rem;
+    background-color: rgb(255, 255, 255);
+}
+    @media screen and (min-width: 318px) and (max-width: 1369px) { 
+        .servicios__card-lines{
+            display: none;
+        }
+    }
+
+.servicios__card-line{
+    background-color: var(--naranja);
+    width: 1.5rem;
+    height: 100%;
+}
+
+
+/* CARD 2*/
+
+.servicios__card-2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    height:max-content;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 735px) { 
+        .servicios__card-2-container{
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 2rem;
+            align-items: center;
+        }
+    }
+
+.servicios__card-2{
+    display: flex;
+    width: 20rem;
+    height: max-content;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    height: 100%;
+}
+    @media screen and (min-width: 318px) and (max-width: 735px) { 
+        .servicios__card-2{
+            margin-top: 1rem;
+        }
+    }
+
+.servicios__card-2-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--subtitulo);
+    color: rgb(0, 0, 0);
+    font-family: PoppinsBlack;
+    flex-direction: column;
+    width: 100%;
+    height:15%;
+}
+
+.servicios__card-2-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    width: 100%;
+    height:33.33%;
+}
+
+.servicios__card-2-image img{
+    width: 80%;
+}
+
+.servicios__card-2-body{
+    display: flex;
+    width: 100%;
+    height:45%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+}
+
+.servicios__card-2-body ul {
+    list-style-type: '- ';
+    line-height: 2.5rem;
+}
+
+.servicios__card-2-body ul li{
+    font-size: var(--texto);
+    font-family: PoppinsRegular;
+
+}

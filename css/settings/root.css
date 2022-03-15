@@ -1,0 +1,62 @@
+/*
+*
+* @root
+*
+*/
+
+:root{
+    --naranja: #f1790d;
+    --naranja-200: #b4590a;
+    --azul:#4267B2;
+    --titulo: 4em;
+    --subtitulo: 2em;
+    --texto:1.3em;
+}
+  
+
+* {
+    margin: 0;
+    padding: 0;
+        -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+        -webkit-padding-start: 0px;
+}
+
+body{
+    overflow-x: hidden !important;
+    background-image: url('../../resources/fondo.jpg');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+}
+
+body{
+    position: relative;
+}
+
+body>div {
+    overflow: hidden !important;
+}
+body>section {
+    overflow: hidden !important;
+}
+
+/*
+div{
+    overflow: hidden !important;
+}
+
+section{
+    overflow: hidden !important;
+}*/
+
+html{
+    scroll-behavior: smooth;
+}

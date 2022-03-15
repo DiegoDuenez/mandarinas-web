@@ -1,0 +1,132 @@
+/*
+*
+* @Layouts (Nosotros)
+*
+*/
+
+.nosotros{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: row;
+    padding: 0 0 0 3rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .nosotros{
+            padding: 0 0 0 0;
+        }
+    }
+
+.nosotros__content{
+    display: flex;
+    flex-direction: column ;
+    padding: 8rem 0 0 8rem;
+    width: 60%;
+    object-fit: contain;
+    gap: 1rem;
+}
+    @media screen and (min-width: 1074px) and (max-width: 1220px) { 
+        .nosotros__content{
+            width: 50%;
+        }
+    }
+    @media screen and (min-width: 686px) and (max-width: 1073px) { 
+        .nosotros__content{
+            width: 100%;
+            padding: 8rem 8rem 0 8rem;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 685px) { 
+        .nosotros__content{
+            width: 100%;
+            padding: 4rem 4rem 0 4rem;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 520px) { 
+        .nosotros__content{
+            gap: 0.5rem;
+        }
+    }
+
+
+.nosotros__content p{
+    margin-top: 2rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 520px) { 
+        .nosotros__content p{
+            margin-top: 1rem;
+        }
+    }
+
+.nosotros__content--w40{
+    width: 50%;
+}
+    @media screen and (min-width: 1074px) and (max-width: 1220px) { 
+        .nosotros__content--w40{
+            width: 50%;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .nosotros__content--w40{
+            display: none;
+        }
+    }
+
+
+.nosotros__image{
+    width: 90%;
+    height: 100%;
+    max-height: 100%;
+}
+
+.nosotros__title{
+    font-family: PoppinsBlack;
+    font-size: var(--titulo);
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .nosotros__title{
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 640px) { 
+        .nosotros__title{
+            font-size: 3rem;
+        }
+    }
+
+.nosotros__text{
+    line-height:3rem;
+    font-family: PoppinsRegular;
+    font-size: var(--texto);
+}
+
+.nosotros__text--regular{
+    font-family: PoppinsRegular;
+}
+
+.nosotros__text--italic{
+    font-family: PoppinsItalic;
+}
+
+.nosotros__text--center{
+    text-align: center;
+}
+
+.nosotros__text--justify{
+    text-align: justify;
+}
+
+.nosotros__footer{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    background-color: var(--naranja);
+    padding: 3rem;
+    font-family: PoppinsItalic;
+    color:white;
+    font-size: var(--texto);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+}

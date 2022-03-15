@@ -1,0 +1,34 @@
+/*
+*
+* @Components (Footer)
+*
+*/
+@import url('../settings/fonts.css');
+
+.footer{
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    gap: 2rem;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+    @media screen and (min-width: 318px) and (max-width: 1040px) { 
+        .footer{
+            flex-direction: column;
+            height: max-content;
+            padding: 3rem;
+        }
+    }
+
+.footer a{
+    font-family: PoppinsRegular;
+    text-decoration: none;
+    color: white;
+}
+    @media screen and (min-width: 318px) and (max-width: 1040px) { 
+        .footer a{
+            text-align: center;
+        }
+    }

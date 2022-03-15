@@ -1,0 +1,90 @@
+/*
+*
+* @Fonts
+*
+*/
+
+@font-face {
+    font-family: 'PoppinsBlack';
+    src: url('../../fonts/Poppins-Black.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsBlackItalic';
+    src: url('../../fonts/Poppins-BlackItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('../../fonts/Poppins-Bold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsBoldItalic';
+    src: url('../../fonts/Poppins-BoldItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsExtraBold';
+    src: url('../../fonts/Poppins-ExtraBold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsExtraBoldItalic';
+    src: url('../../fonts/Poppins-ExtraBoldItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsExtraLight';
+    src: url('../../fonts/Poppins-ExtraLight.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsExtraLightItalic';
+    src: url('../../fonts/Poppins-ExtraLightItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsItalic';
+    src: url('../../fonts/Poppins-Italic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsLightItalic';
+    src: url('../../fonts/Poppins-LightItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../../fonts/Poppins-Medium.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsMediumItalic';
+    src: url('../../fonts/Poppins-MediumItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../../fonts/Poppins-Regular.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBold';
+    src: url('../../fonts/Poppins-SemiBold.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsSemiBoldItalic';
+    src: url('../../fonts/Poppins-SemiBoldItalic.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsThin';
+    src: url('../../fonts/Poppins-Thin.otf') format('woff');
+}
+
+@font-face {
+    font-family: 'PoppinsThinItalic';
+    src: url('../../fonts/Poppins-ThinItalic.otf') format('woff');
+}

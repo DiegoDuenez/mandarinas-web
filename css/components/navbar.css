@@ -1,0 +1,215 @@
+/*
+*
+* @Components (Navbar)
+*
+*/
+
+@import url('../settings/fonts.css');
+
+
+.swal2-popup {
+    font-family: PoppinsRegular !important;
+}
+
+
+.navbar{
+    display: flex;
+    font-family: PoppinsBold;
+    width: 100%;
+    height: 10rem;
+    background-color: rgba(206, 206, 206, 0.699);
+    justify-content: space-between;
+    transition: 0.4s;
+        -webkit-box-shadow: 0 0 12px -1px rgba(0, 0, 0, 0.651);
+    box-shadow: 0 0 12px -1px rgba(0, 0, 0, 0.651);
+    position: fixed;
+    padding: 0 2rem 0 2rem;
+    z-index: 9;
+}
+
+.navbar__image{
+    width: 7.5rem;
+    height: 11rem;
+}
+
+.navbar__menu{
+   display: none;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar__menu{
+            display: flex;
+        }
+    }
+
+.navbar__menu img{
+    width: 3rem;
+    height: 3rem;
+}
+
+.navbar__logo{
+    display: flex;
+    width: 20rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.navbar__links{
+    display: flex;
+    width: 50rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 0.5rem;
+    gap: 1.5rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar__links{
+            justify-content: flex-end;
+        }
+    }
+
+.navbar__link{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar__link{
+            display: none;
+        }
+    }
+
+.navbar__link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: var(--naranja);
+    transition: width .3s;
+}
+    @media (hover: hover) {
+        .navbar__link:hover::after {
+            width: 100%;
+        }
+    }
+
+    @media (hover: none) {
+        .navbar__link:active::after {
+            width: 100%;
+        }
+    }
+
+
+.navbar__icon{
+    font-size: 2rem;
+    color: var(--azul);
+}
+
+
+
+/* NAVABAR MINI */
+
+.navbar-mini{
+    display: flex;
+    font-family: PoppinsBold;
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(206, 206, 206, 0.699);
+    justify-content: space-between;
+    transition: 0.4s;
+        -webkit-box-shadow: 0 0 12px -1px rgba(0, 0, 0, 0.651);
+    box-shadow: 0 0 12px -1px rgba(0, 0, 0, 0.651);
+    position: fixed;
+    padding: 2rem 2rem 2rem 2rem;
+    z-index: 9;
+    top: -10em;
+}
+
+.navbar-mini__logo{
+    display: flex;
+    width: 10rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.navbar-mini__image{
+    width: 7rem;
+    height: 7rem;
+}
+
+.navbar-mini__links{
+    display: flex;
+    width: 50rem;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 0.5rem;
+    gap: 1.5rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar-mini__links{
+            justify-content: flex-end;
+        }
+    }
+
+.navbar-mini__link{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar-mini__link{
+            display: none;
+        }
+    }
+
+.navbar-mini__link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: var(--naranja);
+    transition: width .3s;
+}
+    @media (hover: hover) {
+        .navbar-mini__link:hover::after {
+            width: 100%;
+        }
+    }
+
+    @media (hover: none) {
+        .navbar-mini__link:active::after {
+            width: 100%;
+        }
+    }
+
+.navbar-mini__menu{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar-mini__menu{
+            display: flex;
+        }
+    }
+    
+.navbar-mini__menu img{
+    width: 2rem;
+    height: 2rem;
+}
+    
+.navbar-mini__icon{
+    font-size: 2rem;
+    color: var(--azul);
+}

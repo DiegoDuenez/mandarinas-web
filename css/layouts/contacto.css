@@ -1,0 +1,199 @@
+/*
+*
+* @Layouts (Contacto)
+*
+*/
+
+.contacto{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    padding: 3rem;
+    background-color: var(--naranja);
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contacto__title{
+    font-family: PoppinsBlack;
+    text-align: center;
+    font-size: var(--titulo);
+    color: white;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .contacto__title{
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 640px) { 
+        .contacto__title{
+            font-size: 3rem;
+        }
+    }
+
+.contacto__subtitle{
+    font-family: PoppinsThinItalic;
+    font-size: var(--subtitulo);
+    text-align: center;
+    color: white;
+}
+
+.contacto__content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1256px) { 
+        .contacto__content{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+.contacto__info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    align-self: center;
+    font-size: 1.3rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1256px) { 
+        .contacto__info{
+            width: 100%;
+            margin-top: 2rem;
+        }
+    }
+
+
+.contacto__content--mt2{
+    margin-top: 2rem
+}
+
+.contacto__content p{
+    font-size: var(--texto);
+    font-family: PoppinsRegular;
+    color: white;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.contacto__content p a{
+    text-decoration: none;
+    color: white;
+}
+
+.contacto__form{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 50%;
+    padding: 1rem 3rem 1rem 3rem ;
+    gap: 1rem;
+    height: 30rem;
+}
+    @media screen and (min-width: 750px) and (max-width: 1256px) { 
+        .contacto__form{
+            width: 80%;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 749px) { 
+        .contacto__form{
+            width: 100%;
+        }
+    }
+
+textarea{
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    font-family: PoppinsRegular;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px 20px 10px 20px;
+    outline: none;
+}
+
+.contacto__input-line{
+    display: flex;
+    gap: 1rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 750px) { 
+        .contacto__input-line{
+            flex-direction: column;
+        }
+    }
+
+.contacto__input-line input{
+    font-family: PoppinsRegular;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 10px 20px 10px 20px;
+    outline: none;
+}
+    @media screen and (min-width: 318px) and (max-width: 750px) { 
+        .contacto__input-line input{
+            width: 100%;
+        }
+    }
+
+.contacto__input-line input:focus{
+    border: 1px solid black;
+}
+.contacto__input-line input:focus + .contacto__input-icon{
+    color: black;
+}
+
+.contacto__form button{
+    color: white;
+    font-family: PoppinsRegular;
+    background-color: var(--naranja);
+    width: 100%;
+    height: 3.5rem;
+    border: 2px solid var(--naranja);
+    font-weight: bold;
+    font-size: 1rem;
+    object-fit: contain;
+    cursor: pointer;
+    transition: 400ms;
+    align-self: center;
+}
+    @media screen and (min-width: 318px) and (max-width: 750px) { 
+        .contacto__form button{
+            width: 100%;
+        }
+    }
+
+.contacto__input-wrapper{
+    position: relative;
+    width: 100%;
+    /*background-color: red;*/
+}
+
+.contacto__input-icon{
+    color: gray;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
