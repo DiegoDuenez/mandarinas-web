@@ -20,7 +20,7 @@
         <div class="navbar__links" data-aos="fade-left">
             <a href="#" class="navbar__link">INICIO</a>
             <a href="#taxis" class="navbar__link">TAXIS</a>
-            <a href="#empresarial" class="navbar__link">EMPRESARIAL</a>
+            <!--<a href="#empresarial" class="navbar__link">EMPRESARIAL</a>-->
             <a href="#mandarinasplus" class="navbar__link">MANDARINAS PLUS</a>
             <a href="#contacto" class="navbar__link">CONTACTO</a>
             <a href="https://www.facebook.com/Mandarinas/" target="blank"><i class="fa-brands fa-facebook navbar__icon"></i></a>
@@ -58,7 +58,7 @@
             <a href="#app" class="navbar-mini__link">APP</a>
         <?php elseif($archivo == 'taxis.php'): ?>
             <a href="#taxis" class="navbar-mini__link">TAXIS</a>
-            <a href="#empresarial" class="navbar-mini__link">EMPRESARIAL</a>
+           <!-- <a href="#empresarial" class="navbar-mini__link">EMPRESARIAL</a>-->
             <a href="#mandarinasplus" class="navbar-mini__link">MANDARINAS PLUS</a>
         <?php elseif($archivo == 'gruas.php'): ?>
             <a href="#gruas" class="navbar-mini__link">GRÚAS</a>

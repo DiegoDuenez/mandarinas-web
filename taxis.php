@@ -43,6 +43,10 @@
     <?php include('templates/components/banner.php') ?>
     <!--=== BANNER END===-->
 
+    <!--=== TAXIS START ===-->
+    <?php include('templates/layouts/servicios/taxis.html'); ?>
+    <!--=== TAXIS END===-->
+
     <!--=== CONTACTO START ===-->
     <?php include('templates/layouts/contacto.html'); ?>
     <!--=== CONTACTO END===-->

@@ -1,0 +1,58 @@
+/*
+*
+* @Layouts (Servicios/Taxis)
+*
+*/
+
+
+.servicios-taxis{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    gap: 4rem;
+}
+
+
+.servicios-taxis__container{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.servicios-taxis__container--center{
+    justify-content: center;
+    align-items: center;
+}
+
+.servicios-taxis__content{
+    width: 50%;
+    height: 100%;
+}
+
+.servicios-taxis__content--center{
+    align-self: center;
+}
+
+.servicios-taxis__image{
+    width: 100%;
+}
+
+.servicios-taxis__title{
+    font-family: PoppinsBlack;
+    text-align: center;
+    font-size: var(--titulo);
+}
+
+.servicios-taxis__text{
+    line-height:3rem;
+    text-align: center;
+    font-size: var(--texto);
+    font-family: PoppinsRegular;
+}
