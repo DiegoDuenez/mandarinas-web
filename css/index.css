@@ -1,6 +1,6 @@
 /*
 *
-* @Index
+* @Index (Main)
 *
 */
 
@@ -14,6 +14,7 @@
 @import url('helpers/position.css');
 @import url('helpers/colors.css');
 
+@import url('animations/animations.css');
 
 @import url('layouts/nosotros.css');
 @import url('layouts/servicios.css');
