@@ -37,7 +37,7 @@
     <?php elseif($archivo == 'camionetas.php'): ?>
         <div class="navbar__links" data-aos="fade-left">
             <a href="#" class="navbar__link">INICIO</a>
-            <a href="#camionetas" class="navbar__link">PICK UPS</a>
+            <a href="#camionetas" class="navbar__link">CAMIONETAS</a>
             <a href="#contacto" class="navbar__link">CONTACTO</a>
             <a href="https://www.facebook.com/Mandarinas/" target="blank"><i class="fa-brands fa-facebook navbar__icon"></i></a>
             <a class="navbar__menu btnAbrir" ><img src="resources/menu.png" alt="menu"></a>
@@ -63,7 +63,7 @@
         <?php elseif($archivo == 'gruas.php'): ?>
             <a href="#gruas" class="navbar-mini__link">GRÚAS</a>
         <?php elseif($archivo == 'camionetas.php'): ?>
-            <a href="#camionetas" class="navbar-mini__link">PICK UPS</a>
+            <a href="#camionetas" class="navbar-mini__link">CAMIONETAS</a>
         <?php endif; ?>
 
         <a href="#contacto" class="navbar-mini__link">CONTACTO</a>
