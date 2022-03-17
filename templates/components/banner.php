@@ -24,13 +24,13 @@
         <h1 class="banner__title bottom20 " data-aos="fade-up">> GRÚAS DE PLATAFORMA PARA CUIDAR AL MÁXIMO TU VEHÍCULO.</h1>
         <h2 class="banner__title bottom10 " data-aos="fade-down">871-718-1010</h2>
         <div class="banner__links bottom8">
-            <a href="#taxis" class="banner__text" data-aos="fade-up" data-aos-delay="200">GRÚAS</a>
+            <a href="#gruas" class="banner__text" data-aos="fade-up" data-aos-delay="200">GRÚAS</a>
         </div>
     <?php elseif($archivo == 'camionetas.php'): ?>
         <h1 class="banner__title bottom20 " data-aos="fade-up">> LA FORMA MÁS PRÁCTICA Y ECONÓMICA PARA TRANSPORTAR CUALQUIER COSA QUE NECESITES.</h1>
         <h2 class="banner__title bottom10 " data-aos="fade-down">871-718-1111</h2>
         <div class="banner__links bottom8">
-            <a href="#taxis" class="banner__text" data-aos="fade-up" data-aos-delay="200">CAMIONETAS</a>
+            <a href="#camionetas" class="banner__text" data-aos="fade-up" data-aos-delay="200">CAMIONETAS</a>
         </div>
     <?php endif; ?>
 

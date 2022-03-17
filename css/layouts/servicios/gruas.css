@@ -1,0 +1,66 @@
+/*
+*
+* @Layouts (Servicios/Gruas)
+*
+*/
+
+
+.servicios-gruas{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    gap: 4rem;
+}
+
+.servicios-gruas__container{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    flex-direction: column;
+    gap: 2rem;
+}
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+       /* .servicios-gruas__container{
+            flex-direction: column-reverse;
+        }*/
+    }
+   
+.servicios-gruas__content{
+    width: 100%;
+    height: 100%;
+}
+
+.servicios-gruas__image{
+    width: 100%;
+    max-width: 80%;
+}
+
+.servicios-gruas__title{
+    font-family: PoppinsBlack;
+    text-align: center;
+    font-size: var(--titulo);
+}
+
+.servicios-gruas__text{
+    line-height:3rem;
+    text-align: center;
+    font-size: var(--texto);
+    font-family: PoppinsRegular;
+}
+
+.servicios-gruas__content--center{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.servicios-taxis__container--center{
+    justify-content: center;
+    align-items: center;
+}
