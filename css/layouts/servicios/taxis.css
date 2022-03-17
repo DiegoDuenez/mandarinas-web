@@ -25,6 +25,12 @@
     flex-direction: row;
     gap: 2rem;
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios-taxis__container{
+            flex-direction: column-reverse;
+        }
+    }
+   
 
 .servicios-taxis__container--center{
     justify-content: center;
@@ -35,6 +41,11 @@
     width: 50%;
     height: 100%;
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios-taxis__content{
+            width: 100%;
+        }
+    }
 
 .servicios-taxis__content--center{
     align-self: center;
@@ -42,6 +53,7 @@
 
 .servicios-taxis__image{
     width: 100%;
+    max-width: 80%;
 }
 
 .servicios-taxis__title{
@@ -55,4 +67,10 @@
     text-align: center;
     font-size: var(--texto);
     font-family: PoppinsRegular;
+}
+
+@media screen and (min-width: 318px) and (max-width: 1073px) { 
+    .flex-row-reverse{
+        flex-direction: column-reverse !important;
+    }
 }

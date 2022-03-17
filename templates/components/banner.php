@@ -36,13 +36,13 @@
 
     </div>
     <?php if($archivo == 'index.php'): ?>
-        <img src="resources/banner.jpg " alt="Taxi" class="banner__image" loading="lazy">
+        <img src="resources/banner.jpg" alt="Taxi" class="banner__image" loading="lazy">
     <?php elseif($archivo == 'taxis.php'): ?>
-        <img src="resources/servicios/banner.jpg " alt="Taxi" class="banner__image" loading="lazy">
+        <img src="resources/taxibanner.jpg" alt="Taxi" class="banner__image" loading="lazy">
     <?php elseif($archivo == 'gruas.php'): ?>
-        <img src="resources/servicios/gruabanner.jpg " alt="Taxi" class="banner__image" loading="lazy">
+        <img src="resources/gruabanner.jpg" alt="Taxi" class="banner__image" loading="lazy">
     <?php elseif($archivo == 'camionetas.php'): ?>
-        <img src="resources/servicios/pickupbanner.jpg " alt="Taxi" class="banner__image" loading="lazy">
+        <img src="resources/pickupbanner.jpg" alt="Taxi" class="banner__image" loading="lazy">
     <?php endif; ?>
 
 </div>

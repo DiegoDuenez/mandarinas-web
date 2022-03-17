@@ -88,24 +88,22 @@
 }
     @media screen and (min-width: 848px) and (max-width: 1125px) { 
         .banner__title{
-            /*left:0;
-            bottom: 5rem;
-            right: 0;
-            margin: auto;*/
             font-size: 2rem;
         }
     }
-    @media screen and (min-width: 318px) and (max-width: 847px) { 
+    @media screen and (min-width: 600px) and (max-width: 847px) { 
         .banner__title{
-            /*left:0;
-            right: 0;
-            bottom: 5rem;
-            margin: auto;*/
             font-size: 2rem;
             width: 70%;
         }
-        
     }
+    @media screen and (min-width: 318px) and (max-width: 599px) { 
+        .banner__title{
+            font-size: 1.5rem;
+            width: 70%;
+        }
+    }
+
 
 
 .wrapper{
