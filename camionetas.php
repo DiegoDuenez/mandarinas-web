@@ -43,6 +43,10 @@
     <?php include('templates/components/banner.php') ?>
     <!--=== BANNER END===-->
 
+    <!--=== GRUAS START ===-->
+    <?php include('templates/layouts/servicios/camionetas.html'); ?>
+    <!--=== GRUAS END===-->
+
     <!--=== CONTACTO START ===-->
     <?php include('templates/layouts/contacto.html'); ?>
     <!--=== CONTACTO END===-->

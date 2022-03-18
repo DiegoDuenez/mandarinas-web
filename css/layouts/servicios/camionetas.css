@@ -1,11 +1,10 @@
 /*
 *
-* @Layouts (Servicios/Taxis)
+* @Layouts (Servicios/Camionetas)
 *
 */
 
-
-.servicios-taxis{
+.servicios-camionetas{
     display: flex;
     width: 100%;
     height: max-content;
@@ -17,7 +16,7 @@
     gap: 4rem;
 }
 
-.servicios-taxis__container{
+.servicios-camionetas__container{
     display: flex;
     width: 100%;
     height: max-content;
@@ -25,43 +24,42 @@
     gap: 2rem;
 }
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
-        .servicios-taxis__container{
+        .servicios-camionetas__container{
             flex-direction: column-reverse;
         }
     }
    
-
-.servicios-taxis__container--center{
+.servicios-camionetas__container--center{
     justify-content: center;
     align-items: center;
 }
 
-.servicios-taxis__content{
+.servicios-camionetas__content{
     width: 50%;
     height: 100%;
 }
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
-        .servicios-taxis__content{
+        .servicios-camionetas__content{
             width: 100%;
         }
     }
 
-.servicios-taxis__content--center{
+.servicios-camionetas__content--center{
     align-self: center;
 }
 
-.servicios-taxis__image{
+.servicios-camionetas__image{
     width: 100%;
     max-width: 80%;
 }
 
-.servicios-taxis__title{
+.servicios-camionetas__title{
     font-family: PoppinsBlack;
     text-align: center;
     font-size: var(--titulo);
 }
 
-.servicios-taxis__text{
+.servicios-camionetas__text{
     line-height:3rem;
     text-align: center;
     font-size: var(--texto);
