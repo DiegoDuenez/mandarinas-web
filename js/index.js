@@ -5,9 +5,27 @@
 */
 
 $(document).ready(function(){
+
     AOS.init()
     repetir('#parent',60)
 })
+
+    /*var $banner = $('.banner__links');
+    var url=location.href;
+    var urlFilename = url.substring(url.lastIndexOf('/')+1);
+    console.log(url)
+    console.log(urlFilename)
+
+
+    if (screen.width <= 1000) 
+    {
+        if(urlFilename === 'taxis.php' || urlFilename === "gruas.php" || urlFilename === "camionetas.php"){
+            alert("laaa")
+            $banner.addClass('banner__links--no-top') 
+        }
+    }
+    else $banner.removeClass('banner__links--no-top');*/
+
 
 if(screen.width <= 1369){
     $("#circuloPideTaxi").removeAttr("data-aos-delay").removeAttr("data-aos-once");;

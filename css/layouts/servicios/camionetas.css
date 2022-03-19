@@ -35,6 +35,8 @@
 }
 
 .servicios-camionetas__content{
+    display: flex;
+    flex-direction: column;
     width: 50%;
     height: 100%;
 }
@@ -55,9 +57,18 @@
 
 .servicios-camionetas__title{
     font-family: PoppinsBlack;
-    text-align: center;
     font-size: var(--titulo);
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios-camionetas__title{
+            text-align: center;
+        }
+    }
+    @media screen and (min-width: 318px) and (max-width: 640px) { 
+        .servicios-camionetas__title{
+            font-size: 3rem;
+        }
+    }
 
 .servicios-camionetas__text{
     line-height:3rem;
@@ -70,4 +81,11 @@
     .flex-row-reverse{
         flex-direction: column-reverse !important;
     }
+}
+
+.servicios-camionetas__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
 }
