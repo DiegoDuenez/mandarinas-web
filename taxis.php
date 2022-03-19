@@ -36,7 +36,7 @@
     <!--=== NAVBAR END===-->
 
     <!--=== SIDEBAR START ===-->
-    <?php include('templates/components/sidebar.html') ?>
+    <?php include('templates/components/sidebar.php') ?>
     <!--=== SIDEBAR END===-->
 
     <!--=== BANNER START ===-->
