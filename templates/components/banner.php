@@ -35,7 +35,7 @@
             <div class="banner__content banner__content--row mb5">
                 <a href="#servicios" class="banner__link" id="textoMovil" data-aos="fade-up">VER SERVICIOS</a>
                 <a href="taxis.php" class="banner__link" data-aos="fade-up">TAXIS</a>
-                <a href="gruas.php" class="banner__link" data-aos="fade-up">GRUAS</a>
+                <a href="gruas.php" class="banner__link" data-aos="fade-up">GRÚAS</a>
                 <a href="camionetas.php" class="banner__link" data-aos="fade-up">CAMIONETAS</a>
             </div>  
         <?php elseif($archivo == 'taxis.php'): ?>
