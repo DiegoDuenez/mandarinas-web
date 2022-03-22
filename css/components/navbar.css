@@ -27,10 +27,23 @@
     z-index: 9;
 }
 
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar{
+            height: 5rem;
+        }
+    }
+
+
 .navbar__image{
     width: 7.5rem;
     height: 11rem;
 }
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar__image{
+            width: 5rem;
+            height: 7rem;
+        }
+    }
 
 .navbar__menu{
    display: none;
@@ -48,6 +61,13 @@
     width: 3rem;
     height: 3rem;
 }
+
+    @media screen and (min-width: 318px) and (max-width: 876px) { 
+        .navbar__menu img{
+            width: 2rem;
+            height: 2rem;
+        }
+    }
 
 .navbar__logo{
     display: flex;

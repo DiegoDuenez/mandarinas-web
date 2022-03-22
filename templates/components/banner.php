@@ -28,7 +28,7 @@
 <?php endif; ?>
     <div class="banner__mask">
         <?php if($archivo == 'index.php'): ?>
-            <div class="banner__content  banner__content--p3">
+            <div class="banner__content banner__content--p3">
                 <h1 class="banner__title" data-aos="fade-up">> OFRECEMOS UNA VARIEDAD DE SERVICIOS CON DIFERENTES CATEGORÍAS Y PRECIOS</h1>
                 <h2 class="banner__title" data-aos="fade-down">871-718-1111</h2>
             </div>  
