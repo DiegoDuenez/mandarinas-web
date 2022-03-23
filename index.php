@@ -18,7 +18,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
      <!--===== FONTAWESOME ICONS =====-->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.0/css/all.css">
     <!--====== AOS CSS ======-->
     <link rel="stylesheet" href="libs/aos/dist/aos.css">
     <!--====== MAIN CSS ======-->
@@ -32,7 +33,7 @@
 <body>
 
     <!--=== NAVBAR START ===-->
-    <?php include('templates/components/navbar.php') ?>
+    <?php include('templates/components/navbar2.php') ?>
     <!--=== NAVBAR END===-->
 
     <!--=== SIDEBAR START ===-->
@@ -73,6 +74,7 @@
     <script src="js/index.js"></script>
     <script src="js/sidebar.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/navbar2.js"></script>
     <script src="js/mail.js"></script>
 
 

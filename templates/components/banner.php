@@ -28,40 +28,40 @@
 <?php endif; ?>
     <div class="banner__mask">
         <?php if($archivo == 'index.php'): ?>
-            <div class="banner__content banner__content--p3">
+            <div class="banner__content banner__content--p3 mt7">
                 <h1 class="banner__title" data-aos="fade-up">> OFRECEMOS UNA VARIEDAD DE SERVICIOS CON DIFERENTES CATEGORÍAS Y PRECIOS</h1>
                 <h2 class="banner__title" data-aos="fade-down">871-718-1111</h2>
             </div>  
             <div class="banner__content banner__content--row mb5">
                 <a href="#servicios" class="banner__link" id="textoMovil" data-aos="fade-up">VER SERVICIOS</a>
-                <a href="taxis.php" class="banner__link" data-aos="fade-up">TAXIS</a>
-                <a href="gruas.php" class="banner__link" data-aos="fade-up">GRÚAS</a>
-                <a href="camionetas.php" class="banner__link" data-aos="fade-up">CAMIONETAS</a>
+                <a href="taxis.php" class="banner__link" data-aos="fade-up" data-replace="TAXIS"><span>TAXIS</span></a>
+                <a href="gruas.php" class="banner__link" data-aos="fade-up" data-replace="GRÚAS"><span>GRÚAS</span></a>
+                <a href="camionetas.php" class="banner__link" data-aos="fade-up" data-replace="CAMIONETAS"><span>CAMIONETAS</span></a>
             </div>  
         <?php elseif($archivo == 'taxis.php'): ?>
-            <div class="banner__content banner__content--p3 ">
+            <div class="banner__content banner__content--p3 mt7 ">
                 <h1 class="banner__title" data-aos="fade-up">> SERVICIO LAS 24 HORAS DEL DIA LOS 365 DÍAS DEL AÑO</h1>
                 <h2 class="banner__title" data-aos="fade-down">871-718-1111</h2>
             </div>  
             <div class="banner__content banner__content--row mb5">
-                <a href="#taxis" class="banner__link textoMovil" data-aos="fade-up" >TAXIS</a>
-                <a href="#mandarinasplus" class="banner__link textoMovil" data-aos="fade-up">MANDARINAS PLUS</a>
+                <a href="#taxis" class="banner__link textoMovil" data-aos="fade-up" data-replace="TAXIS"><span>TAXIS</span></a>
+                <a href="#mandarinasplus" class="banner__link textoMovil" data-aos="fade-up" data-replace="MANDARINAS PLUS"><span>MANDARINAS PLUS</span></a>
             </div>  
         <?php elseif($archivo == 'gruas.php'): ?>
-            <div class="banner__content banner__content--p3">
+            <div class="banner__content banner__content--p3 mt7">
                 <h1 class="banner__title" data-aos="fade-up">> GRÚAS DE PLATAFORMA PARA CUIDAR AL MÁXIMO TU VEHÍCULO</h1>
                 <h2 class="banner__title" data-aos="fade-down">871-718-1010</h2>
             </div>  
             <div class="banner__content banner__content--row mb5">
-                <a href="#gruas" class="banner__link textoMovil" data-aos="fade-up">GRÚAS</a>
+                <a href="#gruas" class="banner__link textoMovil" data-aos="fade-up" data-replace="GRÚAS"><span>GRÚAS</span></a>
             </div>  
         <?php elseif($archivo == 'camionetas.php'): ?>
-            <div class="banner__content banner__content--p3 ">
+            <div class="banner__content banner__content--p3 mt7">
                 <h1 class="banner__title" data-aos="fade-up">> LA FORMA MÁS PRÁCTICA Y ECONÓMICA DE TRANSPORTAR LO QUE NECESITES</h1>
                 <h2 class="banner__title" data-aos="fade-down">871-718-1111</h2>
             </div>  
             <div class="banner__content banner__content--row mb5">
-                <a href="#camionetas" class="banner__link textoMovil"  data-aos="fade-up">CAMIONETAS</a>
+                <a href="#camionetas" class="banner__link textoMovil" data-aos="fade-up" data-replace="CAMIONETAS"><span>CAMIONETAS</span></a>
             </div>  
         <?php endif; ?>
     </div>

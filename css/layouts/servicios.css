@@ -111,13 +111,23 @@
 
 .servicios__content--w40{
     width: 40%;
-
 }
     @media screen and (min-width: 318px) and (max-width: 1073px) { 
         .servicios__content--w40{
             width: 100%;
         }
     }
+
+.servicios__content--w50{
+    width: 50%;
+}
+
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .servicios__content--w50{
+            width: 100%;
+        }
+    }
+
 
 .servicios__content--w40 img{
     width: 100%
@@ -176,7 +186,7 @@
     align-items: center;
     background-color: var(--naranja);
     border-radius: 5rem;
-    font-size: var(--subtitulo);
+    font-size: 3.5rem;
     color: white;
     object-fit: cover;
     width: 0; 
@@ -196,6 +206,7 @@
     height: 100%;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .servicios__card-body h3{
