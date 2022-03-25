@@ -5,7 +5,6 @@
 */
 
 $(document).ready(function(){
-
     AOS.init()
     repetir('#parent',60)
 })

@@ -65,7 +65,7 @@
     <!--=== MAIN JS ===-->
     <script src="js/index.js"></script>
     <script src="js/sidebar.js"></script>
-    <script src="js/navbar.js"></script>
+    <script src="js/navbar2.js"></script>
     <script src="js/mail.js"></script>
 
 

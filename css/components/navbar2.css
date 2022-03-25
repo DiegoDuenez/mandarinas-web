@@ -26,9 +26,18 @@
       cursor: pointer;
   }
 
+  @media screen  and (min-width: 768px) {
+    .navigation__button {
+        top: 4rem;
+        right: 4rem;
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
   .navigation__brand{
         position: fixed;
-        top: 1.5rem;
+        top: 1rem;
         left: 1.5rem;
         height: 10rem;
         width: 10rem;
@@ -36,34 +45,27 @@
         cursor: pointer;
   }
   
-  @media screen  and (min-width: 768px) {
-      .navigation__button {
-          top: 4rem;
-          right: 4rem;
-          height: 7rem;
-          width: 7rem;
-      }
-  }
-
   @media screen  and (max-width: 768px) {
     .navigation__brand{
         position: fixed;
-        top: 1.5rem;
+        top: 1rem;
         left: 1.5rem;
-        height: 5rem;
-        width: 5rem;
+        height: 7rem;
+        width: 7rem;
         z-index: 300;
         cursor: pointer;
     }
   
   }
+ 
+
   
   .navigation__background {
       position: fixed;
-      top: 2rem;
-      right: 2rem;
-      height: 3rem;
-      width: 3rem;
+      top: 1.5rem;
+      right: 1.5rem;
+      height: 5rem;
+      width: 5rem;
       border-radius: 50%;
       background-color: var(--naranja);
       background-size: cover;
@@ -74,10 +76,10 @@
   
   @media screen and (min-width: 768px) {
       .navigation__background {
-          top: 4.5rem;
-          right: 4.5rem;
-          height: 6rem;
-          width: 6rem;
+          top: 4rem;
+          right: 4rem;
+          height: 5rem;
+          width: 5rem;
       }
   }
   
@@ -163,7 +165,6 @@
   
   @media screen and (min-width: 768px) {
       .navigation__icon {
-          margin-top: 3.5rem;
       }
   }
   
@@ -180,7 +181,7 @@
       .navigation__icon,
       .navigation__icon::before,
       .navigation__icon::after {
-          width: 3rem;
+          width: 2.2rem;
       }
   }
   
@@ -193,11 +194,11 @@
   }
   
   .navigation__icon::before {
-      top: -.8rem;
+      top: -.7rem;
   }
   
   .navigation__icon::after {
-      top: .8rem;
+      top: .7rem;
   }
   
   .navigation__button:hover .navigation__icon::before {

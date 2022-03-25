@@ -29,18 +29,18 @@
                     </li>
                 <?php elseif($archivo == 'taxis.php'): ?>
                     <li class="navigation__item">
-                        <a href="#nosotros" class="navigation__link">Taxis</a>
+                        <a href="#taxis" class="navigation__link">Taxis</a>
                     </li>
                     <li class="navigation__item">
-                        <a href="#servicios" class="navigation__link">Mandarinas plus</a>
+                        <a href="#mandarinasplus" class="navigation__link">Mandarinas plus</a>
                     </li>
                 <?php elseif($archivo == 'gruas.php'): ?>
                     <li class="navigation__item">
-                        <a href="#nosotros" class="navigation__link">Grúas</a>
+                        <a href="#gruas" class="navigation__link">Grúas</a>
                     </li>
                 <?php elseif($archivo == 'camionetas.php'): ?>
                     <li class="navigation__item">
-                        <a href="#nosotros" class="navigation__link">Camionetas</a>
+                        <a href="#camionetas" class="navigation__link">Camionetas</a>
                     </li>
                 <?php endif; ?>
                 <li class="navigation__item">
