@@ -164,7 +164,7 @@
     }
 
 .app__text{
-    line-height:3rem;
+    line-height:2.5rem;
     text-align: center;
     font-size: var(--texto);
     font-family: PoppinsRegular;
@@ -392,7 +392,7 @@
 
 .app__content-image img{
     width: 40rem;
-    height: 27rem;
+    height: 23.5rem;
 
 }
 @media screen and (min-width: 318px) and (max-width: 1100px) { 
@@ -430,6 +430,8 @@
 
 .app__image-phone{
     display: flex;
+    width: 100%;
+    height: 25rem;
 }
 
 .app__image-phone img{
@@ -437,14 +439,27 @@
 }
     @media screen and (min-width: 318px) and (max-width: 1100px) { 
         .app__images{
-            width: 60%;
+            width: 100%;
         }
 
         .app__image-phone img{
-            width: 100%;
+            width: 15rem
         }
         .w60{
             width: 100% !important;
+        }
+
+    }
+
+    @media screen and (min-width: 318px) and (max-width: 610px) {
+        .app__images{
+            width: 100%;
+        } 
+        .app__image-phone img{
+            width: 80%;
+        }
+        .app__image-phone{
+            height: 20rem;
         }
 
     }

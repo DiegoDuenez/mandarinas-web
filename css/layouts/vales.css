@@ -118,14 +118,14 @@
 }
 
 .vales__text{
-    line-height:3rem;
+    line-height:2.5rem;
     font-family: PoppinsRegular;
     font-size: var(--texto);
     text-align: center;
 }
 
 .vale__image{
-    width: 30%;
+    width: 25%;
 }
 @media screen and (min-width: 318px) and (max-width: 1073px) { 
     .vale__image{

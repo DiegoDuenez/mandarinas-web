@@ -96,7 +96,7 @@
     }
 
 .nosotros__text{
-    line-height:3rem;
+    line-height:2.5rem;
     font-family: PoppinsRegular;
     font-size: var(--texto);
 }
