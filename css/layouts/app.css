@@ -194,6 +194,7 @@
 .app__content--center{
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
     object-fit: contain;
     width: 100%;
@@ -302,7 +303,6 @@
     @media screen and (min-width: 601px) and (max-width: 1100px) { 
         .app__descarga-image img{
             width: 7rem;
-            
         }
     }
 
@@ -392,7 +392,7 @@
 
 .app__content-image img{
     width: 40rem;
-    height: 30rem;
+    height: 27rem;
 
 }
 @media screen and (min-width: 318px) and (max-width: 1100px) { 
@@ -422,3 +422,28 @@
         height: 12rem;
     }
 }
+
+.app__images{
+    display: flex;
+    width: 40%;
+}
+
+.app__image-phone{
+    display: flex;
+}
+
+.app__image-phone img{
+    width: 70%;
+}
+    @media screen and (min-width: 318px) and (max-width: 1100px) { 
+        .app__images{
+            width: 60%;
+        }
+
+        .app__image-phone img{
+            width: 100%;
+        }
+        .w60{
+            width: 100% !important;
+        }
+    }

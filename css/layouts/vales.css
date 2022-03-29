@@ -23,11 +23,21 @@
 
 .vales__content{
     display: flex;
-    flex-direction: column ;
-    width: 80%;
+    flex-direction: row ;
+    width: 100%;
     object-fit: contain;
-    gap: 1rem;
+    justify-content: center;
+    gap: 3rem;
+    align-items: center;
 }
+    @media screen and (min-width: 318px) and (max-width: 1073px) { 
+        .vales__content{
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 4rem ;
+        }
+        
+    }
 
 .vales__title{
     font-family: PoppinsBlack;
@@ -113,6 +123,16 @@
     font-size: var(--texto);
     text-align: center;
 }
+
+.vale__image{
+    width: 30%;
+}
+@media screen and (min-width: 318px) and (max-width: 1073px) { 
+    .vale__image{
+        width: 80%;
+    }
+}
+
 /*
 .fa-stack{
     position: relative;
