@@ -93,6 +93,13 @@
     display: flex;
     color: var(--naranja);
     font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.vales__card-header i{
+    vertical-align: middle;
 }
 
 .vales__card-body{
@@ -106,3 +113,18 @@
     font-size: var(--texto);
     text-align: center;
 }
+/*
+.fa-stack{
+    position: relative;
+    background-color: RED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem !important;
+}
+
+.fa-stack-2x{
+    font-size: 4rem;
+
+   
+}*/

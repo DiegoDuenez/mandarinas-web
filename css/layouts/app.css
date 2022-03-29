@@ -129,6 +129,17 @@
     }
 
 
+.app__content--row{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    object-fit: contain;
+    width: 50%;
+    height: 100%;
+    align-self: center;
+    flex-direction: row;
+}
+
 .app__content--column{
     display: flex;
     justify-content: center;
@@ -176,6 +187,9 @@
         }
     }
 
+.app__content--padding{
+    padding: 5rem;
+}    
 
 .app__content--center{
     display: flex;
@@ -329,6 +343,11 @@
     padding: 0.5rem;
 }
 
+.app__descargar-button--md{
+    width: 50%;
+    margin: 0 auto ;
+}
+
 .app__descarga-button--naranja:hover{
     background-color: var(--naranja);
     color: white;
@@ -360,4 +379,46 @@
     background-color: rgb(12, 133, 58);
     color: white;
     border-color: rgb(12, 133, 58);
+}
+
+
+.app__content-image{
+    display: flex;
+    width: 50%;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__content-image img{
+    width: 40rem;
+    height: 30rem;
+
+}
+@media screen and (min-width: 318px) and (max-width: 1100px) { 
+    .app__content-image{
+        width: 100%;
+        justify-content: center;
+    }
+    
+}
+
+@media screen and (min-width: 701px) and (max-width: 1100px) { 
+    .app__content-image img{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 435px) and (max-width: 700px) { 
+    .app__content-image img{
+        width: 30rem;
+        height: 20rem;
+    }
+}
+
+@media screen and (min-width: 318px) and (max-width: 434px) { 
+    .app__content-image img{
+        width: 20rem;
+        height: 12rem;
+    }
 }

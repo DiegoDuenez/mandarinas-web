@@ -13,6 +13,13 @@
     width: 50% !important;
 }
 
+
+.w90{
+    width: 90% !important;
+}
+
+
+
 .wMax{
     width: max-content !important;
 }
