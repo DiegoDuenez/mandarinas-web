@@ -56,6 +56,11 @@
     <?php include('templates/layouts/app.html'); ?>
     <!--=== MANDARINAS APP END===-->
 
+     <!--=== VALES START ===-->
+     <?php include('templates/layouts/vales.html'); ?>
+    <!--=== VALES END===-->
+
+
     <!--=== CONTACTO START ===-->
     <?php include('templates/layouts/contacto.html'); ?>
     <!--=== CONTACTO END===-->

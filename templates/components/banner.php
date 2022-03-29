@@ -11,7 +11,8 @@
         <div class="banner__content banner__content--row mb5">
             <a href="#servicios" class="banner__link" id="textoMovil" data-aos="fade-up">VER SERVICIOS</a>
             <a href="#taxis" class="banner__link" data-aos="fade-up" data-replace="TAXIS"><span>TAXIS</span></a>
-            <a href="#mandarinasplus" class="banner__link" data-aos="fade-up" data-replace="PLUS"><span>PLUS</span></a>
+            <a href="#app" class="banner__link" data-aos="fade-up" data-replace="APP"><span>APP</span></a>
+            <a href="#vales" class="banner__link" data-aos="fade-up" data-replace="VALES"><span>VALES</span></a>
             <a href="#gruas" class="banner__link" data-aos="fade-up" data-replace="GRÚAS"><span>GRÚAS</span></a>
             <a href="#camionetas" class="banner__link" data-aos="fade-up" data-replace="CAMIONETAS"><span>CAMIONETAS</span></a>
         </div>  

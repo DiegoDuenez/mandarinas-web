@@ -176,7 +176,8 @@
 }
 
 .servicios__subtitle{
-    font-family: PoppinsThinItalic;
+    font-family: PoppinsSemiBoldItalic;
+    font-weight: bold;
     font-size: var(--subtitulo);
     text-align: center;
 }
@@ -366,4 +367,14 @@
     font-size: var(--texto);
     font-family: PoppinsRegular;
 
+}
+
+
+.servicios__link{
+    transition: 400ms;
+    color: var(--naranja);
+}
+
+.servicios__link:hover{
+    color: var(--naranja-200);
 }

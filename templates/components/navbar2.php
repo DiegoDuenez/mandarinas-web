@@ -17,32 +17,18 @@
                 <li class="navigation__item">
                     <a href="#" class="navigation__link" >Inicio</a>
                 </li>
-                <?php if($archivo == 'index.php'): ?>
-                    <li class="navigation__item">
-                        <a href="#nosotros" class="navigation__link">Nosotros</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#servicios" class="navigation__link">Servicios</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#app" class="navigation__link">App</a>
-                    </li>
-                <?php elseif($archivo == 'taxis.php'): ?>
-                    <li class="navigation__item">
-                        <a href="#taxis" class="navigation__link">Taxis</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a href="#mandarinasplus" class="navigation__link">Mandarinas plus</a>
-                    </li>
-                <?php elseif($archivo == 'gruas.php'): ?>
-                    <li class="navigation__item">
-                        <a href="#gruas" class="navigation__link">Grúas</a>
-                    </li>
-                <?php elseif($archivo == 'camionetas.php'): ?>
-                    <li class="navigation__item">
-                        <a href="#camionetas" class="navigation__link">Camionetas</a>
-                    </li>
-                <?php endif; ?>
+                <li class="navigation__item">
+                    <a href="#nosotros" class="navigation__link">Nosotros</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#servicios" class="navigation__link">Servicios</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#app" class="navigation__link">App</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#vales" class="navigation__link">Vales</a>
+                </li>
                 <li class="navigation__item">
                     <a href="#contacto" class="navigation__link">Contacto</a>
                 </li>
